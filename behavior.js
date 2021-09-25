@@ -1,4 +1,4 @@
-window.onload = function () {
+window.onload = () => {
   
   var seconds = 00; 
   var tens = 00; 
@@ -9,7 +9,7 @@ window.onload = function () {
   var buttonReset = document.getElementById('button-reset');
   var Interval ;
 
-  buttonStart.onclick = function() {
+  buttonStart.onclick = () => {
     
     clearInterval(Interval);
      Interval = setInterval(startTimer, 10);
@@ -20,7 +20,7 @@ window.onload = function () {
   }
   
 
-  buttonReset.onclick = function() {
+  buttonReset.onclick = () => {
      clearInterval(Interval);
     tens = "00";
   	seconds = "00";
