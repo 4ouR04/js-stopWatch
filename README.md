@@ -1,6 +1,6 @@
 <h1>Vanilla Javascript StopWatch</h1>
 <br />
-<img scr="img/stopWatch.png" />
+<img src="img/stopWatch.png" />
 <br />
 <p><b>How to use</b></p>
 1. clone this repository in your machine by running this in your terminal <pre>git clone git@github.com:cm-amos/js-stopWatch.git</pre><br />
