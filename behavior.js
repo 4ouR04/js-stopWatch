@@ -1,3 +1,7 @@
+// Author: (cm-amos)Amos Mwongela
+// File: behavior.js
+
+//start
 window.onload = () => {
   
   var seconds = 00; 
@@ -58,3 +62,5 @@ window.onload = () => {
   
 
 }
+
+// END
